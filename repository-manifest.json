@@ -1,0 +1,132 @@
+{
+  "manifestVersion": "1.0",
+  "repository": {
+    "name": "Roo's Creative & Utility Prompts",
+    "description": "A collection of useful prompts for coding, content creation, and learning.",
+    "author": "Roo the AI Assistant",
+    "repositoryURL": "https://example.com/path/to/your/repository-manifest.json"
+  },
+  "prompts": [
+    {
+      "id": "code-folder",
+      "title": "💻 Code Helpers",
+      "text": "",
+      "description": "Prompts for code generation, debugging, and explanation.",
+      "author": null,
+      "version": "1.0",
+      "isFolder": true,
+      "parentID": null,
+      "orderIndex": 0
+    },
+    {
+      "id": "code-explain",
+      "title": "Explain Code Snippet",
+      "text": "Explain the following code snippet step-by-step, focusing on its purpose, logic, and potential edge cases:\n\n```\n{clipboard}\n```",
+      "description": "Provides a detailed explanation of selected code.",
+      "author": "Roo",
+      "version": "1.1",
+      "isFolder": false,
+      "parentID": "code-folder",
+      "orderIndex": 0
+    },
+    {
+      "id": "code-refactor",
+      "title": "Refactor for Readability",
+      "text": "Refactor the following code snippet to improve its readability and maintainability. Explain the changes made:\n\n```\n{clipboard}\n```",
+      "description": "Suggests improvements to code clarity.",
+      "author": "Roo",
+      "version": "1.0",
+      "isFolder": false,
+      "parentID": "code-folder",
+      "orderIndex": 1
+    },
+    {
+      "id": "code-regex",
+      "title": "Generate Regex",
+      "text": "Generate a regular expression (specify flavor if needed, e.g., PCRE, Python) that matches the following pattern described by the text below. Provide an explanation of the regex components:\n\n{clipboard}",
+      "description": "Creates a regex based on a natural language description.",
+      "author": "Roo",
+      "version": "1.0",
+      "isFolder": false,
+      "parentID": "code-folder",
+      "orderIndex": 2
+    },
+    {
+      "id": "content-folder",
+      "title": "📝 Content Creation",
+      "text": "",
+      "description": "Prompts for writing, summarizing, and brainstorming.",
+      "author": null,
+      "version": "1.0",
+      "isFolder": true,
+      "parentID": null,
+      "orderIndex": 1
+    },
+    {
+      "id": "content-summarize",
+      "title": "Summarize Text (TL;DR)",
+      "text": "Summarize the following text into a concise paragraph (TL;DR style):\n\n{clipboard}",
+      "description": "Creates a short summary of the selected text.",
+      "author": "Roo",
+      "version": "1.0",
+      "isFolder": false,
+      "parentID": "content-folder",
+      "orderIndex": 0
+    },
+    {
+      "id": "content-rewrite-tone",
+      "title": "Rewrite with Tone",
+      "text": "Rewrite the following text to have a more {tone e.g., professional, casual, enthusiastic} tone:\n\n{clipboard}",
+      "description": "Adjusts the tone of the selected text (requires placeholder input).",
+      "author": "Roo",
+      "version": "1.1",
+      "isFolder": false,
+      "parentID": "content-folder",
+      "orderIndex": 1
+    },
+    {
+      "id": "content-brainstorm",
+      "title": "Brainstorm Ideas",
+      "text": "Brainstorm 5 creative ideas based on the following topic or concept:\n\n{clipboard}",
+      "description": "Generates related ideas for a given topic.",
+      "author": "Roo",
+      "version": "1.0",
+      "isFolder": false,
+      "parentID": "content-folder",
+      "orderIndex": 2
+    },
+    {
+      "id": "learning-folder",
+      "title": "🧠 Learning & Explanation",
+      "text": "",
+      "description": "Prompts for understanding complex topics.",
+      "author": null,
+      "version": "1.0",
+      "isFolder": true,
+      "parentID": null,
+      "orderIndex": 2
+    },
+    {
+      "id": "learning-eli5",
+      "title": "Explain Like I'm 5 (ELI5)",
+      "text": "Explain the following concept or term like I'm 5 years old:\n\n{clipboard}",
+      "description": "Simplifies complex topics.",
+      "author": "Roo",
+      "version": "1.0",
+      "isFolder": false,
+      "parentID": "learning-folder",
+      "orderIndex": 0
+    },
+    {
+      "id": "learning-analogy",
+      "title": "Generate Analogy",
+      "text": "Create a helpful analogy to explain the following concept:\n\n{clipboard}",
+      "description": "Helps understand concepts through comparison.",
+      "author": "Roo",
+      "version": "1.0",
+      "isFolder": false,
+      "parentID": "learning-folder",
+      "orderIndex": 1
+    }
+  ]
+}
